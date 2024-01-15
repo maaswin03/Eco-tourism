@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject.Planscontroller">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="547.0" prefWidth="683.0" style="-fx-background-color: #FFFFFF#FFFFFF;">
+            <children>
+                <Pane layoutX="-4.0" layoutY="-1.0" prefHeight="550.0" prefWidth="687.0" style="-fx-background-color: #000000;">
+                    <children>
+                        <Pane layoutX="39.0" layoutY="26.0" prefHeight="487.0" prefWidth="623.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 25px;">
+                            <children>
+                                <Label layoutX="258.0" layoutY="6.0" text="Details">
+                                    <font>
+                                        <Font name="System Bold" size="30.0" />
+                                    </font>
+                                </Label>
+                                <Pane layoutX="27.0" layoutY="56.0" prefHeight="413.0" prefWidth="350.0" style="-fx-background-color: #FFFFFF;">
+                                    <children>
+                                        <Label layoutX="16.0" layoutY="10.0" text="Infromation">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane layoutX="14.0" layoutY="42.0" prefHeight="358.0" prefWidth="317.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 10px;">
+                                            <children>
+                                                <Label layoutX="9.0" layoutY="12.0" text="Package Name" />
+                                                <Label layoutX="11.0" layoutY="60.0" text="Discription" />
+                                                <Label layoutX="12.0" layoutY="198.0" text="Activities" />
+                                                <Label layoutX="10.0" layoutY="241.0" text="Cost per person" />
+                                                <Label fx:id="label6" layoutX="20.0" layoutY="290.0" prefHeight="17.0" prefWidth="274.0" textFill="RED">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                                <Button layoutX="65.0" layoutY="316.0" mnemonicParsing="false" onAction="#gotonextpage" prefHeight="26.0" prefWidth="180.0" style="-fx-background-radius: 35px; -fx-background-color: #000000;" text="Book now" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                    <Label fx:id="label4" layoutX="11.0" layoutY="259.0" prefHeight="25.0" prefWidth="150.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="label1" layoutX="11.0" layoutY="32.0" prefHeight="25.0" prefWidth="150.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="label2" layoutX="11.0" layoutY="78.0" prefHeight="119.0" prefWidth="290.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="label3" layoutX="11.0" layoutY="215.0" prefHeight="25.0" prefWidth="278.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                            </children></Pane>
+                              <Button layoutX="219.0" layoutY="6.0" mnemonicParsing="false" onAction="#onclickthisbutton" style="-fx-background-color: #FFFFFF;" text="View Details" textFill="#0033ff">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Button>
+                                    </children>
+                                </Pane>
+                        <Pane layoutX="377.0" layoutY="56.0" prefHeight="415.0" prefWidth="225.0" style="-fx-background-color: #3fbaff;">
+                           <children>
+                              <ImageView fitHeight="424.0" fitWidth="232.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../../Downloads/desktop-wallpaper-tamil-nadu-kanyakumari-india-thumbnail.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children></Pane>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </children></AnchorPane>
+    </content>
+</ScrollPane>

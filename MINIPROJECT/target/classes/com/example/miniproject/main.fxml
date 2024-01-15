@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject.maincontroller">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="746.0" prefWidth="683.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <AnchorPane layoutX="442.0" layoutY="-6.0" prefHeight="375.0" prefWidth="243.0" style="-fx-background-color: #3fbaff;" />
+                <AnchorPane layoutX="-4.0" layoutY="1.0" prefHeight="366.0" prefWidth="446.0" style="-fx-background-color: #bee7ff;">
+                    <children>
+                        <Label layoutX="25.0" layoutY="85.0" prefHeight="59.0" prefWidth="277.0" text="Your Ultimate" textFill="#3fbaff">
+                            <font>
+                                <Font name="Charter Black" size="36.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="25.0" layoutY="171.0" prefHeight="59.0" prefWidth="277.0" text="Awaits !" textFill="#3fbaff">
+                            <font>
+                                <Font name="Charter Black" size="36.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="24.0" layoutY="128.0" prefHeight="59.0" prefWidth="360.0" text="Travel Destination">
+                            <font>
+                                <Font name="Charter Black" size="36.0" />
+                            </font>
+                        </Label>
+                        <DatePicker layoutX="24.0" layoutY="246.0" prefHeight="35.0" prefWidth="250.0" promptText="Pick Date" />
+                        <Button layoutX="316.0" layoutY="244.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" style="-fx-background-color: #000000; -fx-background-radius: 35px;" text="Search" textFill="WHITE">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Button>
+                    </children></AnchorPane>
+                <Circle fill="WHITE" layoutX="50.0" layoutY="392.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="151.0" layoutY="392.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="251.0" layoutY="393.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="357.0" layoutY="392.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="458.0" layoutY="389.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="564.0" layoutY="395.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="655.0" layoutY="396.0" radius="56.0" stroke="WHITE" strokeType="INSIDE" />
+                <ImageView fitHeight="372.0" fitWidth="284.0" layoutX="365.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img_3.png" />
+                    </image>
+                </ImageView>
+                <Pane layoutX="-6.0" layoutY="-2.0" prefHeight="42.0" prefWidth="696.0" style="-fx-background-color: #454545;">
+                    <children>
+                        <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="22.0" layoutY="6.0" onMouseClicked="#gotoinfo" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@hello.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="75.0" layoutY="11.0" text="Main" textFill="WHITE">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="125.0" layoutY="11.0" text="Gallery" textFill="WHITE">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="190.0" layoutY="11.0" onMouseClicked="#gotohelp" text="Help" textFill="WHITE">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Pane layoutX="-11.0" layoutY="696.0" prefHeight="46.0" prefWidth="694.0" style="-fx-background-color: #454545;">
+                    <children>
+                        <Label layoutX="248.0" layoutY="11.0" text="©2023 copyright. all rights reserved" textFill="WHITE">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Label layoutX="8.0" layoutY="368.0" prefHeight="59.0" prefWidth="360.0" text="Trending Packages">
+                    <font>
+                        <Font name="Charter Black" size="30.0" />
+                    </font>
+                </Label>
+                <Pane layoutX="39.0" layoutY="430.0" prefHeight="243.0" prefWidth="172.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+                    <children>
+                        <Label layoutX="15.0" layoutY="124.0" text="kaniya Kumari">
+                            <font>
+                                <Font name="Arial Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="30.0" layoutY="152.0" prefHeight="19.0" prefWidth="109.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="   30 places to visit " />
+                        <Label layoutX="50.0" layoutY="178.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="  6 Activities  " />
+                        <ImageView fitHeight="106.0" fitWidth="192.0" layoutX="6.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="16.0" layoutY="151.0" />
+                        <Button layoutX="34.0" layoutY="202.0" mnemonicParsing="false" onAction="#onclickkumari" style="-fx-background-color: #3fbaff; -fx-background-radius: 35px;" text="Book  Now  ↗">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane layoutX="260.0" layoutY="432.0" prefHeight="243.0" prefWidth="172.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+                    <children>
+                        <Label layoutX="50.0" layoutY="124.0" text="Madurai">
+                            <font>
+                                <Font name="Arial Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="30.0" layoutY="152.0" prefHeight="19.0" prefWidth="109.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="   13 places to visit " />
+                        <Label layoutX="50.0" layoutY="178.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="  3 Activities  " />
+                        <ImageView fitHeight="96.0" fitWidth="160.0" layoutX="6.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img_1.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="16.0" layoutY="151.0" />
+                        <Button layoutX="34.0" layoutY="202.0" mnemonicParsing="false" onAction="#onclickmadurai" style="-fx-background-color: #3fbaff; -fx-background-radius: 35px;" text="Book  Now  ↗">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane layoutX="483.0" layoutY="433.0" prefHeight="243.0" prefWidth="172.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;">
+                    <children>
+                        <Label layoutX="49.0" layoutY="124.0" text="Chennai">
+                            <font>
+                                <Font name="Arial Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="30.0" layoutY="152.0" prefHeight="19.0" prefWidth="109.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="   24 places to visit " />
+                        <Label layoutX="50.0" layoutY="178.0" style="-fx-background-color: #bee7ff; -fx-background-radius: 35px;" text="  5 Activities  " />
+                        <ImageView fitHeight="106.0" fitWidth="160.0" layoutX="6.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img_2.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="16.0" layoutY="151.0" />
+                        <Button layoutX="34.0" layoutY="202.0" mnemonicParsing="false" onAction="#onclickchennai" style="-fx-background-color: #3fbaff; -fx-background-radius: 35px;" text="Book  Now  ↗">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+            </children></AnchorPane>
+    </content>
+</ScrollPane>
